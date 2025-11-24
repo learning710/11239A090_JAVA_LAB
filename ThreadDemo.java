@@ -3,7 +3,7 @@ class MyThread extends Thread {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Thread running: " + i);
             try {
-                Thread.sleep(500); // pause for 500ms
+                Thread.sleep(500); // pause for 500s
             } catch (InterruptedException e) {
                 System.out.println(e);
             }
@@ -17,3 +17,4 @@ public class ThreadDemo {
         t1.start(); // starts the thread
     }
 }
+
