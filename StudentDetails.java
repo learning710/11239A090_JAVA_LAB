@@ -42,7 +42,6 @@ public class StudentDetails {
         System.out.print("Enter marks: ");
         double marks = sc.nextDouble();
 
-        // Create student object and display details
         Student student = new Student(name, rollNumber, marks);
         System.out.println("\n--- Student Details ---");
         student.displayDetails();
@@ -50,3 +49,4 @@ public class StudentDetails {
         sc.close();
     }
 }
+
